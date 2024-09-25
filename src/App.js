@@ -35,7 +35,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Upload File</h1>
+            <h1>Upload File Ifeanyi</h1>
             <input type="file" onChange={handleFileChange} />
             <button onClick={handleUpload} disabled={uploading}>
                 {uploading ? 'Uploading...' : 'Upload'}
